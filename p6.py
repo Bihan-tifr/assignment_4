@@ -41,6 +41,7 @@ for i in range(2):
 		ax[i,j].plot(x,env,label="Envelope")
 		ax[i,j].set(xlabel="x",ylabel="frequency")   #frequency of occurence of x
 		ax[i,j].legend()
+		ax[i,j].label_outer()
 
 plt.savefig("p6_plot.jpg")
 plt.show()
