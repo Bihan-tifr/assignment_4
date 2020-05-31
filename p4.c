@@ -11,7 +11,7 @@ int main(void)
 	for(i=0;i<=n;i++)
 	{
 		x=(double)rand()/(double)RAND_MAX;
-		y=-log(x);
+		y=-0.5*log(x);
 		fprintf(fp,"%lf\n",y);
 	}
 	fclose(fp);
